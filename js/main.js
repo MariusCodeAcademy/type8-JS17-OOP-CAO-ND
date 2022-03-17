@@ -11,4 +11,6 @@ formEl.addEventListener('submit', (event) => {
 
   const proc = new ProccessInput(inputVal);
   console.log('proc ===', proc);
+
+  new Person(proc.readyVal.name, proc.readyVal.lName);
 });
