@@ -8,4 +8,7 @@ formEl.addEventListener('submit', (event) => {
   console.log('js in controll');
   const inputVal = formEl.elements.fullName.value;
   console.log('inputVal ===', inputVal);
+
+  const proc = new ProccessInput(inputVal);
+  console.log('proc ===', proc);
 });
